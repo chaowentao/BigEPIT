@@ -65,9 +65,9 @@ We use the processed data [Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLF
 
 <!-- [Important note]: 
 
-1) We use the geometric self-ensemble method to further improve the performance in NTIRE2024 LFSR challenges
+1) We use the geometric self-ensemble method to improve the performance in NTIRE2024 LFSR challenges further
 
-2) We may need to turn off the calculate PSNR/SSIM by settings "--test_NTIRE2023_LFSR 1" since there is no ground true HR images during the testing phase.
+2) We may need to turn off the calculated PSNR/SSIM by setting "--test_NTIRE2023_LFSR 1" since there is no ground true HR images during the testing phase.
   
 
 ## Acknowledgement
@@ -79,26 +79,17 @@ Our work and implementations are inspired and based on the following projects: <
 We sincerely thank the authors for sharing their code and amazing research work!
 
 ## Contact
-if you have any question, please contact me through email chaowentao@mail.bnu.edu.cn -->
+if you have any questions, please contact me through email at chaowentao@mail.bnu.edu.cn -->
 
-
-
-[Important note]: 
-
-1) We use the geometric self-ensemble method to further improve the performance in NTIRE2023 LFSR challenges
-
-2) We may need to turn off the calculate PSNR/SSIM by settings "--test_NTIRE2023_LFSR 1" since there is no ground true HR images during the testing phase.
-  
-
-## Acknowledgement
-Our work and implementations are inspired and based on the following projects: <br> 
-[Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLFSR)<br> 
-[EPIT](https://github.com/ZhengyuLiang24/EPIT)<br> 
-[DistgEPIT](https://github.com/OpenMeow/NTIRE23_LFSR_DistgEPIT)<br> 
-[RR-HLFSR](https://github.com/duongvinh/RR-HLFSR_NTIRE2023_LFSR/)<br>
-We sincerely thank the authors for sharing their code and amazing research work!
-
-## Contact
-if you have any question, please contact me through email chaowentao@mail.bnu.edu.cn
+# Citation
+```
+@inproceedings{chao2024bigepit,
+  title={BigEPIT: Scaling EPIT for Light Field Image Super-Resolution},
+  author={Chao, Wentao and Kan, Yiming and Wang, Xuechun and Duan, Fuqing and Wang, Guanghui},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop},
+  pages={6187--6197},
+  year={2024}
+}
+``` 
 
 
